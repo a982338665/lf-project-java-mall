@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bobo-common" />
+        <module name="bobo-manager-pojo" />
+        <module name="boboparent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bobo-common" target="1.7" />
+      <module name="bobo-manager" target="1.7" />
+      <module name="bobo-manager-pojo" target="1.7" />
+      <module name="bobo-parent" target="1.7" />
+      <module name="boboparent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

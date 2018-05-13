@@ -7,14 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bobo-common" />
+        <module name="bobo-manager-mapper" />
         <module name="bobo-manager-pojo" />
+        <module name="bobo-manager-service" />
+        <module name="bobo-manager-web" />
         <module name="boboparent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bobo-common" target="1.7" />
       <module name="bobo-manager" target="1.7" />
+      <module name="bobo-manager-mapper" target="1.7" />
       <module name="bobo-manager-pojo" target="1.7" />
+      <module name="bobo-manager-service" target="1.7" />
+      <module name="bobo-manager-web" target="1.7" />
       <module name="bobo-parent" target="1.7" />
       <module name="boboparent" target="1.5" />
     </bytecodeTargetLevel>

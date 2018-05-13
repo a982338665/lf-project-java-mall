@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bobo-common/bobo-common.iml" filepath="$PROJECT_DIR$/bobo-common/bobo-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bobo-common/bobo-common.iml" filepath="$PROJECT_DIR$/bobo-common/bobo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/bobo-manager/bobo-manager.iml" filepath="$PROJECT_DIR$/bobo-manager/bobo-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-manager/bobo-manager-mapper/bobo-manager-mapper.iml" filepath="$PROJECT_DIR$/bobo-manager/bobo-manager-mapper/bobo-manager-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/bobo-manager-pojo.iml" filepath="$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/bobo-manager-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/bobo-manager-service.iml" filepath="$PROJECT_DIR$/bobo-manager/bobo-manager-service/bobo-manager-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/bobo-manager-web.iml" filepath="$PROJECT_DIR$/bobo-manager/bobo-manager-web/bobo-manager-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/bobo-parent/bobo-parent.iml" filepath="$PROJECT_DIR$/bobo-parent/bobo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" filepath="$PROJECT_DIR$/generatorSqlmapCustom/generatorSqlmapCustom.iml" />
     </modules>
   </component>
 </project>

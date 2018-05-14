@@ -2,9 +2,8 @@ package com.bobo.mapper;
 
 import com.bobo.pojo.TbContent;
 import com.bobo.pojo.TbContentExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbContentMapper {
     int countByExample(TbContentExample example);

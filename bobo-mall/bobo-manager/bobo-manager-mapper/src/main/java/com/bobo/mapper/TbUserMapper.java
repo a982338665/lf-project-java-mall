@@ -2,9 +2,8 @@ package com.bobo.mapper;
 
 import com.bobo.pojo.TbUser;
 import com.bobo.pojo.TbUserExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbUserMapper {
     int countByExample(TbUserExample example);

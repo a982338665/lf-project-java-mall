@@ -2,9 +2,8 @@ package com.bobo.mapper;
 
 import com.bobo.pojo.TbItemParamItem;
 import com.bobo.pojo.TbItemParamItemExample;
-import org.apache.ibatis.annotations.Param;
-
 import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface TbItemParamItemMapper {
     int countByExample(TbItemParamItemExample example);

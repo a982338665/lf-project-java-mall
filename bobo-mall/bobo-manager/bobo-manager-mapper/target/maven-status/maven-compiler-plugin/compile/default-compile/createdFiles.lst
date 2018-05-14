@@ -1,0 +1,11 @@
+com\bobo\mapper\TbItemParamItemMapper.class
+com\bobo\mapper\TbItemMapper.class
+com\bobo\mapper\TbOrderMapper.class
+com\bobo\mapper\TbItemDescMapper.class
+com\bobo\mapper\TbContentMapper.class
+com\bobo\mapper\TbContentCategoryMapper.class
+com\bobo\mapper\TbOrderItemMapper.class
+com\bobo\mapper\TbItemCatMapper.class
+com\bobo\mapper\TbOrderShippingMapper.class
+com\bobo\mapper\TbUserMapper.class
+com\bobo\mapper\TbItemParamMapper.class

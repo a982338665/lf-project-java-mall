@@ -81,8 +81,21 @@ ssm整合：
 		·post乱码过滤
 	·框架整合：
 		·需要把配置文件放在bobo-manager-web下，因为只有web工程打包方式为war，其余为jar
-
-
+___________________________________________________
+mybatis分页插件：com.github.pagehelper
+	·实现原理：
+		1.mybatis里的sqlSessionFactory创建一个sqlSession
+		2.sqlSession里有许多用户方法(insert...)
+		3.executor（执行器对象）
+		--
+		mybatis的plugin实现了以下接口，可在插件中获得要执行的sql语句，在SQL语句中添加limit便可实现分页
+		--
+		4.MappedStatement-sql语句的封装
+		—————————————————
+		5.mybatis中有个接口-拦截器（org.apache.ibatis.plugin下的Interceptor接口）
+		6.实现以上接口可对mybatis进行拓展
+	·此分页插件对逆向工程生成的代码支持不好，不能对有查询条件的进行分页--使用修改后版本-3.4.2-fix		
+___________________________________________________
 
 
 

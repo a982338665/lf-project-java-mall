@@ -21,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="94">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/mybatis/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,6 +61,85 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCatService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemCatService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemCatServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemCatServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="88" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-param-add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-param-list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbItemCatExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com/bobo/pojo/TbItemCatExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,16 +215,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/in/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,22 +225,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <caret line="32" column="19" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java">
+      <file leaf-file-name="ItemCatController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemCatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="405">
+              <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,13 +256,6 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/favicon.ico">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -225,31 +279,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
               <folding>
                 <marker date="1441159491921" expanded="true" signature="1425:1435" ph="..." />
                 <marker date="1441159491921" expanded="true" signature="1847:1887" ph="..." />
@@ -283,8 +317,8 @@
       <file leaf-file-name="ItemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -302,41 +336,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-trans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/applicationContext-trans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/springmvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/resource/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+            <state relative-caret-position="494">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EUTreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bobo-common/src/main/java/com/bobo/common/pojo/EUTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -352,6 +366,14 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>item-param-add</find>
+      <find>item-param-li</find>
+      <find>selectItemCat</find>
+      <find>picFileUpload</find>
+    </findStrings>
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -360,10 +382,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-mapper/src/main/java/bobo/pojo/TbUserExample.java" />
-        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/applicationContext-service.xml" />
-        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-service/pom.xml" />
@@ -394,7 +412,6 @@
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-mapper/src/main/java/com/bobo/mapper/TbItemCatMapper.xml" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/resource/db.properties" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp" />
@@ -411,6 +428,11 @@
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemService.java" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemCatServiceImpl.java" />
+        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemCatService.java" />
+        <option value="$PROJECT_DIR$/bobo-common/src/main/java/com/bobo/common/pojo/EUTreeNode.java" />
+        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java" />
       </list>
     </option>
   </component>
@@ -445,6 +467,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bobo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="bobo-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="bobo-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -477,10 +508,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="956" />
-    <option name="y" value="6" />
-    <option name="width" value="959" />
-    <option name="height" value="1000" />
+    <option name="x" value="4" />
+    <option name="width" value="1620" />
+    <option name="height" value="1156" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -557,58 +587,6 @@
             <path>
               <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-mapper" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
-              <item name="bobo-manager-pojo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
               <item name="bobo-manager-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -650,6 +628,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bobo-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="ItemCatServiceImpl" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bobo-manager" type="462c0819:PsiDirectoryNode" />
+              <item name="bobo-manager-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="ItemCatService" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="bobobobo-mall" type="b2602c69:ProjectViewProjectNode" />
@@ -739,11 +738,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-web\src\main\java\com\bobo\controller" />
+      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-service\src\main\java\com\bobo\service\impl" />
+      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-service\src\main\java\com\bobo\service" />
       <recent name="H:\git-266178\mall\bobo-mall\bobo-common\src\main\java\com\bobo\common\pojo" />
       <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-web\src\test\java\com\bobo\controller" />
-      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-web\src\main\webapp\WEB-INF\js" />
-      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-web\src\main\webapp\WEB-INF\css" />
-      <recent name="H:\git-266178\mall\bobo-mall\bobo-manager\bobo-manager-web\src\main\java\com\bobo\controller" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bobo.service.impl" />
@@ -928,7 +927,7 @@
       <workItem from="1526108685294" duration="119000" />
       <workItem from="1526108812220" duration="9050000" />
       <workItem from="1526262870256" duration="3695000" />
-      <workItem from="1526266791920" duration="11405000" />
+      <workItem from="1526266791920" duration="18172000" />
     </task>
     <servers />
   </component>
@@ -941,14 +940,14 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33395000" />
+    <option name="totallyTimeSpent" value="40162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="1182" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20019627" sideWeight="0.21079692" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31403336" sideWeight="0.21079692" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1651671" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -963,11 +962,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20019627" sideWeight="0.7892031" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31403336" sideWeight="0.7892031" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21401028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -997,14 +996,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbItemParamExample.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbItemParamItem.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbItemParamItemExample.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrder.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrderExample.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrderItem.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrderItemExample.java" />
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrderShipping.java" />
     <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbOrderShippingExample.java" />
     <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbUser.java" />
     <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com.bobo/pojo/TbUserExample.java" />
@@ -1128,14 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1289,62 +1272,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/js/item-list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1583">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1441159491921" expanded="true" signature="1425:1435" ph="..." />
-            <marker date="1441159491921" expanded="true" signature="1847:1887" ph="..." />
-            <marker date="1441159491921" expanded="true" signature="3186:3203" ph="..." />
-            <marker date="1441159491921" expanded="true" signature="3273:3290" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,9 +1300,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="641">
-          <caret line="48" column="53" lean-forward="false" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
+        <state relative-caret-position="494">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-pojo/src/main/java/com/bobo/pojo/TbItemCatExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-common/src/main/java/com/bobo/common/pojo/EUTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/ItemCatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-service/src/main/java/com/bobo/service/impl/ItemCatServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-param-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-param-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="24" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="88" lean-forward="false" selection-start-line="41" selection-start-column="75" selection-end-line="41" selection-end-column="88" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding>
+            <marker date="1441159491921" expanded="true" signature="1425:1435" ph="..." />
+            <marker date="1441159491921" expanded="true" signature="1847:1887" ph="..." />
+            <marker date="1441159491921" expanded="true" signature="3186:3203" ph="..." />
+            <marker date="1441159491921" expanded="true" signature="3273:3290" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bobo-manager/bobo-manager-web/src/main/java/com/bobo/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="57" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

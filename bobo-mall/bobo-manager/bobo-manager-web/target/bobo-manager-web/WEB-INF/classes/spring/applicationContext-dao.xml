@@ -9,7 +9,13 @@
 	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
 	<!-- 数据库连接池 -->
-	<!-- 加载配置文件 -->
+	<!-- 加载配置文件：db.properties/resource.properties-->
+	<!--将相关配置读取到容器里：
+		·1.在xml中使用 ${jdbc.url}
+		·2.在代码中使用   @Value("${FTP_ADDRESS}")
+    					private String FTP_ADDRESS;
+
+	-->
 	<context:property-placeholder location="classpath:resource/*.properties" />
 	<!-- 数据库连接池 -->
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"

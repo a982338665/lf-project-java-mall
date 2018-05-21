@@ -1,4 +1,6 @@
-com\bobo\service\ItemCatService.class
+com\bobo\service\PictureService.class
 com\bobo\service\ItemService.class
+com\bobo\service\impl\PictureServiceImpl.class
 com\bobo\service\impl\ItemServiceImpl.class
 com\bobo\service\impl\ItemCatServiceImpl.class
+com\bobo\service\ItemCatService.class

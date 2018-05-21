@@ -30,6 +30,7 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-io</artifactId>
         </dependency>
+        <!--ftp图片上传-->
         <dependency>
             <groupId>commons-net</groupId>
             <artifactId>commons-net</artifactId>

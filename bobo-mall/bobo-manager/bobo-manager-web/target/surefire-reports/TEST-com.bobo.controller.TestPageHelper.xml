@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="3.227" errors="0" skipped="0" tests="1" name="com.bobo.controller.TestPageHelper">
+<testsuite failures="0" time="3.501" errors="0" skipped="0" tests="1" name="com.bobo.controller.TestPageHelper">
   <properties>
     <property name="idea.version" value="2017.2.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,5 +62,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="3.227" classname="com.bobo.controller.TestPageHelper" name="testPageHelper"/>
+  <testcase time="3.501" classname="com.bobo.controller.TestPageHelper" name="testPageHelper"/>
 </testsuite>

@@ -117,13 +117,30 @@ ___________________________________________________
 			
 		·需要安装
 			linux：G:\VM_centos\CentOS-7-x86_64-Minimal-1708.iso
-			nginx:
-			vsftpd
+			nginx: 见nginx安装 --配置静态资源访问
+			vsftpd：见ftp安装手册，客户端工具下载地址：https://www.filezilla.cn/download/client
 			
 	富文本编辑器使用KindEditor，
 	商品添加实现
-
-
+—————————————————————————
+ftp工具类实现：
+	上传及下载
+	参考：kindeditor.net/docs/upload.html
+	上传图片不需要持久化到dao，故不需要dao
+	service层：接收controller传递对象-MultiPartFile对象，把文件上传到ftp服务器，生成一个新的文件		名，返回此文件的url路径，包装成图片上传插件的数据格式(富文本编辑器)
+		//成功时
+		{
+       		 	"error" : 0,
+        		"url" : "http://www.example.com/path/to/file.ext"
+		}
+		//失败时
+		{
+       			 "error" : 1,
+       			 "message" : "错误信息"
+		}
+	注意事项：回显问题
+	error 必须是Integer类型
+	@JsonInclude(JsonInclude.Include.NON_NULL) 为null的json不返回
 
 
 

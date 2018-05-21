@@ -39,6 +39,7 @@
 	        <tr>
 	            <td>商品图片:</td>
 	            <td>
+						<%----%>
 	            	 <a href="javascript:void(0)" class="easyui-linkbutton picFileUpload">上传图片</a>
 	                 <input type="hidden" name="image"/>
 	            </td>

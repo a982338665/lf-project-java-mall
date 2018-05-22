@@ -71,7 +71,7 @@
 		//创建富文本编辑器
 		//itemAddEditor = TAOTAO.createEditor("#itemAddForm [name=desc]");
 		itemAddEditor = KindEditor.create("#itemAddForm [name=desc]", TT.kingEditorParams);
-		//初始化类目选择和图片上传器
+		//初始化类目选择和图片上传器-fun指js对象的回调方法，在init内部，可跟踪
 		TAOTAO.init({fun:function(node){
 			//根据商品的分类id取商品 的规格模板，生成规格信息。第四天内容。
 			TAOTAO.changeItemParam(node, "itemAddForm");

@@ -93,6 +93,7 @@
 				}
 			});
 			var url = "/item/param/save/"+$("#itemParamAddTable [name=cid]").val();
+			//把js对象转换为字符串
 			$.post(url,{"paramData":JSON.stringify(params)},function(data){
 				if(data.status == 200){
 					$.messager.alert('提示','新增商品规格成功!',undefined,function(){

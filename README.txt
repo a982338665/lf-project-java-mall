@@ -189,20 +189,105 @@ ftp工具类实现：
 	+++++++++++++++++++++++++++++++++++
 	数据写入tb_item，返回统一响应格式
 —————————————————————————
+四、计划：
+	1.商品描述保存-- tb_item_desc
+	2.商品规格的添加及使用
+		·商品描述的保存
+		·使用模板实现商品规格
+
+1.商品规格添加：
+	商品规格
+	 ·同一类商品规格的项目是相同的，值不同，跟商品关联
+	 ·同一类商品的规格项分组也相同
+	 ·不同类商品的规格项不同
+	层级关系：
+	 ·规格组：
+	 ·规格项
+	 ·规格值
+
+2.实现方案:
+	1.使用多表存储解决方案
+		-每一类商品有多个分组
+			++++++++++++++++
+			商品分类表已存在 --商品分组id
+		-每个分组下有多个项
+			++++++++++++++++
+			规格组信息：
+			商品分组id 外键
+			规格组Id   主键
+			规格组名称
+			++++++++++++++++
+			规格项信息：
+			规格项id   主键	
+			规格项名称
+			规格组id   外键
+			++++++++++++++++
+			商品规格信息：
+			商品id 	   联合主键
+			规格项id   联合主键
+			规格信息   具体信息
+			++++++++++++++++
+
+		-每个商品对应不同的规格参数
+	2.表结构
+		-商品分类表：tb_item_cat		1
+
+		-商品规格分组表：tb_item_param_group	N	1
+
+		-商品规格项：					N
+		-商品规格参数表：  外键- 
+			一个商品对应多个商品参数-商品id
+			商品规格项id		
+方案一存在的问题：
+	1.需要复杂sql查询。电商中，尽量单表查询-避免性能问题
+	2.需要创建多张表来描述规格参数之间的关系
+	3.以后若规格参数数据量是商品信息的几十倍，数量庞大，查询效率低
+	4.如果要求新添加的商品规格项发生改变，之前的不发生改变是不能实现的
+
+第二种方案：优化
+	使用模板思路来解决问题--
+
+	1.每一个商品分类对应一个规格参数模板
+	2.模板使用：
+		·每个商品对应唯一的规格参数，在添加商品是，可以根据规格参数模板生成一个表单
+		·保存规格参数时，还可以生成一个规格参数的json数据
+实现流程：
+	1.用户创建规格模板并保存数据库--一类商品对应一个模板
+	2.用户添加商品--根据商品分类取到模板信息
+	3.向用户展示规格模板回显--表单
+	4.新增商品完成--保存商品信息时，将规格信息转json保存数据库
+	5.展示商品信息--根据商品取得json数据，转换为html展示给用户
+	
+数据库存储：
+	1.商品分类和模板的对应表：规格参数模板表：
+		CREATE TABLE `tb_item_param` (
+ 			 `id` bigint(20) NOT NULL AUTO_INCREMENT,
+ 			 `item_cat_id` bigint(20) DEFAULT NULL COMMENT '商品类目ID',
+ 			 `param_data` text COMMENT '参数数据，格式为json格式',
+ 			 `created` datetime DEFAULT NULL,
+ 			 `updated` datetime DEFAULT NULL,
+ 			 PRIMARY KEY (`id`),
+ 			 KEY `item_cat_id` (`item_cat_id`)
+			) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8 COMMENT='商品规则参数';
 
 
+	2.商品规格表：
+		CREATE TABLE `tb_item_param_item` (
+ 			 `id` bigint(20) NOT NULL AUTO_INCREMENT,
+			  `item_id` bigint(20) DEFAULT NULL COMMENT '商品ID',
+			  `param_data` text COMMENT '参数数据，格式为json格式',
+ 			 `created` datetime DEFAULT NULL,
+ 			 `updated` datetime DEFAULT NULL,
+			 PRIMARY KEY (`id`),
+ 			 KEY `item_id` (`item_id`) USING BTREE
+			) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='商品规格和商品的关系表';
 
-
-
-
-
-
-
-
-
-
-
-
+优点：
+	1.不需要做多表关联
+	2.要求新添加的商品规格要变化，之前的商品保持不变很容易，因为之前的商品模板已形成，不必再修改，只需改之后的即可
+缺点：
+	1.涉及到复杂的表单和json之间的转换-对js的编写要求高
+	
 
 
 

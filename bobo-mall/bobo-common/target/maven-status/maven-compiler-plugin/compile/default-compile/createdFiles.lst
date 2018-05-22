@@ -1,4 +1,6 @@
 com\bobo\common\utils\IDUtils.class
+com\bobo\common\pojo\TaotaoResult.class
 com\bobo\common\pojo\ImageResult.class
-com\bobo\common\pojo\EUTreeNode.class
+com\bobo\common\utils\JsonUtils.class
 com\bobo\common\pojo\EUDataGridResult.class
+com\bobo\common\pojo\EUTreeNode.class

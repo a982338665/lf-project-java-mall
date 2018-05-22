@@ -2,6 +2,7 @@ package com.bobo.service;
 
 
 import com.bobo.common.pojo.EUDataGridResult;
+import com.bobo.common.pojo.TaotaoResult;
 import com.bobo.pojo.TbItem;
 
 public interface ItemService {
@@ -20,5 +21,14 @@ public interface ItemService {
      * @return
      */
 	EUDataGridResult getItemList(int page, int rows);
-//	TaotaoResult createItem(TbItem item, String desc, String itemParam) throws Exception;
+
+    /**
+     * 添加商品信息
+     * @param item
+     * @param desc
+     * @param itemParam
+     * @return
+     * @throws Exception
+     */
+	TaotaoResult createItem(TbItem item/*, String desc, String itemParam*/) throws Exception;
 }

@@ -127,7 +127,7 @@ ftp工具类实现：
 	上传及下载
 	参考：kindeditor.net/docs/upload.html
 	上传图片不需要持久化到dao，故不需要dao
-	service层：接收controller传递对象-MultiPartFile对象，把文件上传到ftp服务器，生成一个新的文件		名，返回此文件的url路径，包装成图片上传插件的数据格式(富文本编辑器)
+	service层：接收controller传递对象-MultiPartFile对象，把文件上传到ftp服务器，生成一个新的文件		名，返回此文件的url路径，包装成图片上传插件的数据格式
 		//成功时
 		{
        		 	"error" : 0,
@@ -141,8 +141,54 @@ ftp工具类实现：
 	注意事项：回显问题
 	error 必须是Integer类型
 	@JsonInclude(JsonInclude.Include.NON_NULL) 为null的json不返回
+	——————————————————
+	使用以上方式不支持火狐浏览器：改为返回值String-json已达到浏览器兼容的目的
 
-
+	--————
+	@ResponseBody的意思：
+	等同于调用Response对象，向浏览器客户端Write数据
+	返回对象和返回String-json的区别：
+	1.当返回对象时，浏览器无法接受对象，springmvc默认解析为json字符串返回到浏览器
+	  此时浏览器接受到的content-type为application/json
+	2.当返回String，浏览器直接接收字符串，可以直接解析字符串,
+	  此时浏览器接受到的content-type为text/plain
+	以上两种方式接收到的结果相同，但是结果类型不同，这是造成浏览器不兼容的根本原因
+————————
+富文本编辑器的使用：
+	1.js的位置:webapp\WEB-INF\js\kindeditor-4.1.10
+	2.js的引入：
+		<link href="/js/kindeditor-4.1.10/themes/default/default.css" type="text/css" rel="stylesheet">
+		<!-- 必须引用的 -->
+		<script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/kindeditor-all-min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="/js/kindeditor-4.1.10/lang/zh_CN.js"></script>
+	3.基于textarea添加控件---visibility:hidden 控件不可见
+		<td>商品描述:</td>
+	            <td>
+	                <textarea style="width:800px;height:300px;visibility:hidden;" name="desc"></textarea>
+	            </td>
+	4.初始化富文本编辑器：js中调用create创建富文本编辑器 --显示完成
+		//页面初始化完毕后执行此方法
+		$(function(){
+			//创建富文本编辑器
+			//itemAddEditor = TAOTAO.createEditor("#itemAddForm [name=desc]");
+			itemAddEditor = KindEditor.create("#itemAddForm [name=desc]", TT.kingEditorParams);
+			//初始化类目选择和图片上传器
+			TAOTAO.init({fun:function(node){
+			//根据商品的分类id取商品 的规格模板，生成规格信息。第四天内容。
+			TAOTAO.changeItemParam(node, "itemAddForm");
+			}});
+		});
+	5.提交表单：将富文本编辑器内容同步到textarea中（因为表单中不包含富文本编辑器）
+		//同步文本框中的商品描述
+		itemAddEditor.sync();
+————————
+添加商品的需求实现：
+	+++++++++++++++++++++++++++++++++++
+	$("#itemAddForm").serialize()
+	将表单中的内容序列化成一个key-value形式的字符串
+	+++++++++++++++++++++++++++++++++++
+	数据写入tb_item，返回统一响应格式
+—————————————————————————
 
 
 

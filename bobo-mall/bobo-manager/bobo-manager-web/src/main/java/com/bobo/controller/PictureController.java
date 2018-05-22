@@ -1,6 +1,7 @@
 package com.bobo.controller;
 
 import com.bobo.common.pojo.ImageResult;
+import com.bobo.common.utils.JsonUtils;
 import com.bobo.service.PictureService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -26,17 +27,22 @@ public class PictureController {
      */
     @RequestMapping("/pic/upload")
     @ResponseBody
-    private ImageResult pictureUpload(MultipartFile uploadFile) {
+//    private ImageResult pictureUpload(MultipartFile uploadFile) {
+    /**
+     * 解决浏览器不兼容问题：使用返回值String-json格式
+     */
+    private String pictureUpload(MultipartFile uploadFile) {
 
         ImageResult imageResult = pictureService.uploadPicture(uploadFile);
 
         System.err.println(imageResult.toString());
-
+        String s = JsonUtils.objectToJson(imageResult);
 //        Integer error = imageResult.getError();
 //        Map map=new HashMap();
 //        map.put("error",error);
 //        map.put("url",imageResult.getUrl());
 //        return  map;
-        return imageResult;
+//        return imageResult;
+        return s;
     }
 }

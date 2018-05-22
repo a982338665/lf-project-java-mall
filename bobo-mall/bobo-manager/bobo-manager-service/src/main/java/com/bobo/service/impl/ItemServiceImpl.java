@@ -2,6 +2,8 @@ package com.bobo.service.impl;
 
 
 import com.bobo.common.pojo.EUDataGridResult;
+import com.bobo.common.pojo.TaotaoResult;
+import com.bobo.common.utils.IDUtils;
 import com.bobo.mapper.TbItemMapper;
 import com.bobo.pojo.TbItem;
 import com.bobo.pojo.TbItemExample;
@@ -11,6 +13,7 @@ import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -56,5 +59,19 @@ public class  ItemServiceImpl implements ItemService{
 		PageInfo<TbItem> pageInfo = new PageInfo<>(list);
 		result.setTotal(pageInfo.getTotal());
 		return result;
+	}
+
+	@Override
+	public TaotaoResult createItem(TbItem item/*, String desc, String itemParam*/) throws Exception {
+		//item补全
+		//生成商品id
+		long itemId = IDUtils.genItemId();
+		item.setId(itemId);
+		//商品状态 1-正常 2-下架 3-删除
+		item.setStatus((byte)1);
+		item.setUpdated(new Date());
+		item.setCreated(new Date());
+		tbItemMapper.insert(item);
+		return TaotaoResult.ok();
 	}
 }
